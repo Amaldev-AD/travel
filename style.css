@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat,Helvetica,Arial,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1vw;
 }
 /* nav{
     width: 100vw;
@@ -11,24 +12,28 @@
     height: 15vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.heading{
-    width: 200vw;
-    height: 10vh;
-    padding-left: 8vw;
-}
+
 .head-options{
-    width: 400vw;
+    width: 50vw;
 }
 .head-options ul{
    
     display: flex;
     justify-content: space-between;
-    padding-right: 10vw;
+
 }
 .head-options select{
     border: none;
+    font-size: 1vw;
 }
 .head-options option{
     border-radius: 0px;
+    width: 2vw;
+    height: 2vh;
+    font-size: 1vw;
+}
+.head-options option,a{
+    font-size: 1vw;
 }
