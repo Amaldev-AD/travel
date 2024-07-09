@@ -15,9 +15,7 @@
     justify-content: space-between;
 }
 
-.head-options{
-    width: 50vw;
-}
+
 .head-options ul{
    
     display: flex;
