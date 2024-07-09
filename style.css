@@ -9,29 +9,100 @@
     width: 100vw;
 } */
 .topHead{
-    height: 15vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.heading{
+    margin-left: 10vw;
+}
+.head-options{
+    width: 50vw;
+    margin-right: 8vw;
+}
 
 .head-options ul{
    
     display: flex;
     justify-content: space-between;
+    
 
 }
 .head-options select{
     border: none;
-    font-size: 1vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: #5E5E5E;
 }
 .head-options option{
     border-radius: 0px;
-    width: 2vw;
-    height: 2vh;
-    font-size: 1vw;
+
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: #5E5E5E;
+
 }
-.head-options option,a{
-    font-size: 1vw;
+.head-options a{
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: #5E5E5E;
+
+
+}
+.banner{
+    height: 34vw;
+    width: 100%;
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.overlay{
+    width: 36vw;
+    text-align: center;
+    position: relative;
+    margin-top: 4vw;
+    
+}
+.title{
+    margin-bottom: -3vw;
+}
+.title p{
+    font-family: "WindSong", cursive;
+    font-size: 8vh;
+}
+.title span{
+    font-family: "WindSong", cursive;
+    font-size: 15vh;
+}
+
+.para p{
+    line-height: 1.6vw;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+.clicks1 button{
+    padding: 0.5vw;
+    font-size: 0.8vw;
+    font-weight: 700;
+    color: white;
+    background-color: #f4a9a6;
+    border: none;
+    border-radius: 1vw;
+}
+.clicks2 button{
+    padding: 0.5vw;
+    font-size: 0.8vw;
+    font-weight: 700;
+    color: white;
+    background-color: #b7cde8;
+    border: none;
+    margin-left: 1vw;
+    border-radius: 1vw;
 }
