@@ -284,7 +284,7 @@
 /* popular post */
 
 .popular{
-    height: 55vh;
+    height: 92vh;
     /* margin-bottom: 5vw; */
 }
 .popular ,.popularhead{
@@ -369,6 +369,33 @@
     letter-spacing: 2px;
     text-shadow: .08em .08em 0em rgba(0, 0, 0, .4);  
 }
+.outer-collection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.collection{
+    width: 85.9vw;
+    height: 40vh;
+    display: flex;
+    border-radius: 1vw;
+}
+
+.collectionpics{
+    width: 20vw;
+    height: 35vh;
+    border-radius: 1vw;
+}
+.collectionpics .img1{
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+
+}
+.collectionpics .img2{
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+
+}
 
 /* second last section */
 
@@ -377,6 +404,7 @@
     height: 3vh;
     display: flex;
     justify-content: center;
+   
 }
 .borderline{
     width: 50vw;
@@ -388,6 +416,7 @@
     height: 7vh;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 
 }
 .logos{
